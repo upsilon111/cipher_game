@@ -7,7 +7,7 @@ alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n'
 
 
 
-def caesur(cipher_direction, start_text, shift_amount):
+def caesar(cipher_direction, start_text, shift_amount):
   end_text = ""
   if cipher_direction == "decode":
     shift_amount *= -1
